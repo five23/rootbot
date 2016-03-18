@@ -1,0 +1,27 @@
+{
+  "name": "rootbot",
+  "version": "1.0.0",
+  "description": "Equation solving Slack bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/five23/rootbot.git"
+  },
+  "author": "David Scott Kirby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/five23/rootbot.git"
+  },
+  "homepage": "https://github.com/five23/rootbot.git#readme",
+  "engines": {
+    "node": "5.1.1"
+  },
+  "dependencies": {
+    "botkit": "0.0.11",
+    "mathjs": "^3.0.0"
+  }
+}
